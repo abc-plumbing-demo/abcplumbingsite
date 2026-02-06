@@ -10,7 +10,7 @@ const TestimonialBanner = () => {
       location: 'New York, NY',
       text: 'ABC Plumbing saved the day when our water heater broke down. Fast, professional, and affordable. Highly recommend!',
       rating: 5,
-      backgroundImage: '/images/hero-1.avif'
+      backgroundImage: `${import.meta.env.BASE_URL}images/hero-1.avif`
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const TestimonialBanner = () => {
       location: 'Brooklyn, NY',
       text: 'Excellent service from start to finish. The team was punctual, clean, and fixed our leak quickly. Will definitely use again.',
       rating: 5,
-      backgroundImage: '/images/hero-2.avif'
+      backgroundImage: `${import.meta.env.BASE_URL}images/hero-2.avif`
     },
     {
       id: 3,

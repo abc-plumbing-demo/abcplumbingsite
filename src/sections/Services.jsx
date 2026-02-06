@@ -186,7 +186,7 @@ const Services = () => {
         <div className="relative w-64 md:w-80 lg:w-96 xl:w-[28rem] h-[400px] md:h-[450px] lg:h-[500px]">
           <div className="w-full h-full rounded-t-full overflow-hidden" style={{ clipPath: 'polygon(20% 0%, 80% 0%, 100% 5%, 100% 95%, 80% 100%, 20% 100%, 0% 95%, 0% 5%)' }}>
             <img
-              src="/images/services-cutout.avif"
+              src={`${import.meta.env.BASE_URL}images/services-cutout.avif`}
               alt="24/7 plumbing service"
               className="w-full h-full object-contain object-top"
             />

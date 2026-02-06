@@ -5,8 +5,8 @@ const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const heroImages = [
-    '/images/hero-1.avif',
-    '/images/hero-2.avif',
+    `${import.meta.env.BASE_URL}images/hero-1.avif`,
+    `${import.meta.env.BASE_URL}images/hero-2.avif`,
     'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1920&q=80'
   ]
 

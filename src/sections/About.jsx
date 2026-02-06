@@ -22,7 +22,7 @@ const About = () => {
           {/* Right Side - Image */}
           <div className="md:w-1/2 relative h-64 md:h-auto group">
             <img
-              src="/images/about.avif"
+              src={`${import.meta.env.BASE_URL}images/about.avif`}
               alt="Professional plumber"
               className="w-full h-full object-cover"
             />

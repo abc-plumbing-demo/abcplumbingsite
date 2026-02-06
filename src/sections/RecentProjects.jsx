@@ -145,7 +145,7 @@ const RecentProjects = () => {
       <div className="relative w-full -mt-20 md:-mt-40 flex justify-center items-start pt-8 md:pt-16" style={{ zIndex: 0 }}>
         <div className="relative inline-block">
           <img
-            src="/images/projects-cutout.avif"
+            src={`${import.meta.env.BASE_URL}images/projects-cutout.avif`}
             alt="Recent projects"
             className="block w-auto h-auto max-w-full md:max-w-[400px] lg:max-w-[480px] xl:max-w-[520px]"
           />
