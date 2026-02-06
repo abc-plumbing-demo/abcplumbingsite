@@ -1,0 +1,133 @@
+/* Services Carousel Styles */
+.services-container {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 0;
+  overflow: visible;
+  width: calc(100% + 2rem);
+}
+
+@media (min-width: 768px) {
+  .services-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.services-carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.services-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .services-carousel {
+    display: grid;
+    overflow-x: visible;
+    padding: 0;
+    gap: 1.5rem;
+  }
+}
+
+.service-card-wrapper {
+  flex: 0 0 calc(100vw - 4rem);
+  width: calc(100vw - 4rem);
+  min-width: calc(100vw - 4rem);
+  max-width: calc(100vw - 4rem);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
+@media (min-width: 768px) {
+  .service-card-wrapper {
+    width: auto;
+    min-width: auto;
+    max-width: none;
+    flex: none;
+  }
+}
+
+.service-card-polygon {
+  /* Ensure the clip-path works properly */
+  position: relative;
+}
+
+/* Projects Carousel Styles */
+.projects-container {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 0;
+  overflow: visible;
+  width: calc(100% + 2rem);
+}
+
+@media (min-width: 768px) {
+  .projects-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.projects-carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.projects-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .projects-carousel {
+    display: grid;
+    overflow-x: visible;
+    padding: 0;
+    gap: 1.5rem;
+  }
+}
+
+.project-card-wrapper {
+  flex: 0 0 calc(100vw - 4rem);
+  width: calc(100vw - 4rem);
+  min-width: calc(100vw - 4rem);
+  max-width: calc(100vw - 4rem);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
+@media (min-width: 768px) {
+  .project-card-wrapper {
+    width: auto;
+    min-width: auto;
+    max-width: none;
+    flex: none;
+  }
+}
+
